@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.telalogin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:5:5-49:19
+12        android:allowBackup="true"
+12-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/clemirsilva/.gradle/caches/transforms-3/5586099dc2be2a001572cf14c2426ba8/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.TelaLogin" >
+22-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:13:9-47
+23        <activity
+23-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:15:9-21:20
+24            android:name="com.example.telalogin.TelaPrincipal"
+24-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:16:13-42
+25            android:exported="false" >
+25-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:17:13-37
+26            <meta-data
+26-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:18:13-20:36
+27                android:name="android.app.lib_name"
+27-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:19:17-52
+28                android:value="" />
+28-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:20:17-33
+29        </activity>
+30        <activity
+30-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:22:9-28:20
+31            android:name="com.example.telalogin.FormCadastro"
+31-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:23:13-41
+32            android:exported="false" >
+32-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:24:13-37
+33            <meta-data
+33-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:18:13-20:36
+34                android:name="android.app.lib_name"
+34-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:19:17-52
+35                android:value="" />
+35-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:20:17-33
+36        </activity>
+37        <activity
+37-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:29:9-35:20
+38            android:name="com.example.telalogin.MainActivity"
+38-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:30:13-41
+39            android:exported="false" >
+39-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:31:13-37
+40            <meta-data
+40-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:18:13-20:36
+41                android:name="android.app.lib_name"
+41-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:19:17-52
+42                android:value="" />
+42-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:20:17-33
+43        </activity>
+44        <activity
+44-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:36:9-48:20
+45            android:name="com.example.telalogin.FormLogin"
+45-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:37:13-38
+46            android:exported="true" >
+46-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:38:13-36
+47            <intent-filter>
+47-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:39:13-43:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:40:17-69
+48-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:40:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:42:17-77
+50-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:42:27-74
+51            </intent-filter>
+52
+53            <meta-data
+53-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:18:13-20:36
+54                android:name="android.app.lib_name"
+54-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:19:17-52
+55                android:value="" />
+55-->/Users/clemirsilva/AndroidStudioProjects/TelaLogin/app/src/main/AndroidManifest.xml:20:17-33
+56        </activity>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+60            android:authorities="com.example.telalogin.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/clemirsilva/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/clemirsilva/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/clemirsilva/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/clemirsilva/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
